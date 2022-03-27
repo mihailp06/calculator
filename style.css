@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+button {
+    flex: 1 1 28.23px;
+}
+
+.container {
+    width: 150px;
+    height: 190px;
+    margin: 30px auto;
+    padding: 6px;
+    border: 1px solid orange;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.display {
+    height: 20%;
+    padding: 4px;
+    border: 1px solid green;
+    text-align: end;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.first-row {
+    display: flex;
+    gap: 6px;
+}
+
+.equals {
+    flex-grow: 1;
+}
+
+.second-row {
+    display: flex;
+    gap: 6px;
+}
+
+.third-row {
+    display: flex;
+    gap: 6px;
+}
+
+.fourth-row {
+    display: flex;
+    gap: 6px;
+}
+
+.fifth-row {
+    display: flex;
+    gap: 6px;
+}
+
+.zero {
+    flex-grow: 20;
+}
