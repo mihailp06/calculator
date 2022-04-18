@@ -35,11 +35,3 @@ function operate(operator, a, b) {
     return result;
 }
 
-const display = document.querySelector('.display');
-const buttons = document.querySelectorAll('button');
-let output = 0;
-
-buttons.forEach(button => button.addEventListener('click', () => {
-    output += button.value;
-    display.textContent = output;
-}));
